@@ -1,3 +1,1 @@
-P.execute('my-module', function () {
-  throw new Error('Oops!');
-});
+P.execute(function () { throw new Error('Oops!'); });
